@@ -1,0 +1,48 @@
+.UserCardGallery{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    position:relative;
+  }
+  
+  .nameOfUser {
+    font-weight: bold;
+  }
+  .clickableParagraf{
+    cursor:pointer;
+  }
+  .pagination{
+    text-align: center;
+  }
+  .pagination > * {
+    cursor:pointer;
+  }
+  .card {
+    background-color: rgba(218, 212, 212, 0.502);
+    width:200px;
+    height:230px;
+    margin:20px;
+    padding:20px;
+    display:flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    transition:1s;
+  }
+  .card > p {
+    padding:10px;
+  }
+
+  .card > img {
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+  }
+
+
+
+  .showEmail{
+    background-color: rgba(76, 175, 150, 0.756);
+    position:absolute;
+    border-radius: 40px;
+  }
