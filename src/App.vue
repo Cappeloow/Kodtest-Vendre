@@ -3,17 +3,20 @@ import Emplooyes from './components/Emplooyes.vue';
 </script>
 
 <template>
+  <header>VENDRE</header>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Contact</li>
+      <li>About</li>
+    </ul>
+  </nav>
   <main>
     <Emplooyes/>
   </main>
+  <footer></footer>
 </template>
 
 <style scoped>
-main {
-  width:100%;
-  height:100%;
-  display:flex;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-}
+
 </style>

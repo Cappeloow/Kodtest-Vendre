@@ -5,7 +5,6 @@
         <img :src="user.avatar" alt="">
         <p class="nameOfUser">{{ user.first_name }} {{ user.last_name }}</p>
         <p class="clickableParagraf" @click="toggleEmail(user)">Contact</p>
-        <p class="showEmail" v-if="user.showEmail">{{ user.email }}</p>
       </div>
     </div>
   </div>
@@ -43,7 +42,8 @@ export default {
         });
     },
     toggleEmail(user) {
-      user.showEmail = !user.showEmail;
+      const emailLink = `mailto:${user.email}`;
+      window.location.href = emailLink;
     },
   },
 };
