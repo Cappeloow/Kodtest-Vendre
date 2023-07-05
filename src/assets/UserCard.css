@@ -1,4 +1,5 @@
 .UserCardGallery{
+    margin-top:40px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +21,7 @@
     cursor:pointer;
   }
   .card {
-    background-color: rgba(212, 218, 214, 0.502);
+    background-color: #ff8906;
     width:200px;
     height:230px;
     margin:20px;
