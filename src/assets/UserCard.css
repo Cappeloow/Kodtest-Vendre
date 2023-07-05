@@ -42,7 +42,11 @@
 
 
   .showEmail{
-    background-color: rgba(76, 175, 150, 0.756);
+    background-color: rgba(37, 134, 110, 0.795);
     position:absolute;
     border-radius: 40px;
+    height:120px;
+    display:flex;
+    color:black;
+    align-items: center;
   }
